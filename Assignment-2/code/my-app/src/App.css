@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: #282c34;
+}
+.container{
+  width: 20%;
+  margin: auto;
+  margin-top:10%; 
+  background-color: #61dafb;
+  padding: 10px;  
+  }
+.main{
+padding: 10px;
+background-color: antiquewhite;
+}
+img{
+  width:130px;  
+  border-radius: 10px;
+}
+h1{
+  color: rgb(61, 182, 219);
+margin-top:0;
+}
+ h6{
+  color: grey; 
+  margin-bottom:0;
+}
+h4{
+ color: black;
+ margin-top:0;
+}

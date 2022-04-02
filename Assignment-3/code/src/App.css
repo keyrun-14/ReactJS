@@ -1,0 +1,19 @@
+.customer-info{
+    
+    border: 1px solid;
+    margin:10px;
+}
+/* p{
+    display: flex;
+    flex-direction: column;
+} */
+.order-info{
+    background-color: grey;
+    margin: 10px;
+}
+.header{
+    margin: 10px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
