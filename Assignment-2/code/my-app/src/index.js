@@ -12,10 +12,17 @@ const employee = {
   age: 28,
   profileImg: 'https://www.w3schools.com/howto/img_avatar.png'
        }
-
+       const emp= {
+        name: 'Tom',
+        location: 'New York',
+        bloodGroup: 'B+',
+        age: 28,
+        profileImg: 'https://www.w3schools.com/howto/img_avatar.png'
+             }
 ReactDOM.render(
   <React.StrictMode>
     <App employee={employee} />
+    <App employee={emp} />
   </React.StrictMode>,
   document.getElementById('root')
 );
