@@ -1,13 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import CustomerInfo from './Components/CustomerInfo';
+import Header from './Components/Header';
+import OrderInfo from './Components/OrderInfo';
+import ProductList from './Components/ProductList';
+function App(props) {
+  const { employee } = props;
 
+  
 
-var arrow="<"
-function App() {
   return (
     <div className="site-container">
-    {/* Start Your code here */}
+      <Header employee={employee}/>
+      <CustomerInfo employee={employee}/>
+      <OrderInfo employee={employee}/>
+      <ProductList employee={employee}/>
+      {/* Start Your code here */}
     </div>
   );
 }
