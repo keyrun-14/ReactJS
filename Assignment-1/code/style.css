@@ -1,1 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container >*{
+    width: 100%;
+    height:33.33%;
+    margin: 10px;
+}
+.box1{
+   display: flex;
+   flex-direction: row;
+   
+}
+.yellow2{
+    width:50%;
+    height:20vh;
+    background:  yellow;
+    margin: 10px;
+   
+}
+.box2{
+    width:100%;
+    height:20vh;
+    background: rgb(128, 4, 4);
+    margin: 10px;
+    overflow: none;
 
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+}
+.blue1{
+    width:100%;
+    height:20vh;
+    background: rgb(13, 65, 161);
+    margin: 10px;
+    overflow: none;
+}
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+    
+    .box1{
+        display: flex;
+        flex-direction: row;
+        
+     }
+     .yellow2{
+         width:50%;
+         height:20vh;
+         background:  yellow;
+         margin: 10px;
+        
+     }
+  
+     .box3{
+         display: flex;
+         flex-direction: row;
+     }
+     .blue1{
+         width:100%;
+         height:20vh;
+         background: rgb(46, 11, 141);
+         margin: 10px;
+         overflow: none;
+     }
+     .blue1:last-child{
+        width:100%;
+        height:20vh;
+        background: rgb(46, 11, 141);
+        margin: 10px;
+        overflow: none;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .box1{
+        display: flex;
+        flex-direction: row;
+        
+     }
+     .yellow2{
+         width:50%;
+         height:20vh;
+         background:  yellow;
+         margin: 10px;
+        
+     }
+  
+     .box3{
+         display: flex;
+         flex-direction: column;
+     }
+     .blue1{
+         width:100%;
+         height:10vh;
+         background: rgb(46, 11, 141);
+         margin: 10px;
+         overflow: none;
+     }
+     .blue1:last-child{
+        display: none;
+    }
+
+}
+@media screen and (max-width:320px) {
+    .box1{
+        display: flex;
+        flex-direction: column;
+        
+     }
+     .yellow2{
+         width:100%;
+         height:10vh;
+         background:  yellow;
+         margin: 10px;
+        
+     }
+  
+     .box3{
+         display: flex;
+         flex-direction: column;
+     }
+     .blue1{
+         width:100%;
+         height:10vh;
+         background: rgb(46, 11, 141);
+         margin: 10px;
+         overflow: none;
+     }
+     .blue1:last-child{
+         display: none;
+     }
+
+}
