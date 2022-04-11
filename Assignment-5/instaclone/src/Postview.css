@@ -1,0 +1,65 @@
+
+.heading{
+  color: rgba(51, 51, 51, 0.732);
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between; 
+  background-color: rgb(150, 186, 186);
+  padding-left: 3.31%;
+}
+.app-name{
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.cam-icon{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 7.1%;
+
+}
+.cam-icon>img{
+  width: 40px;
+}
+
+.full-body{
+ width: 50%;
+ margin: auto;
+}
+
+.postview{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 243, 243);
+  margin: 10px;
+  padding: 10px;
+  border: 1px ;
+}
+
+.user{
+  display: flex;
+  justify-content: space-between;
+
+}
+h2{
+  margin: 0;
+}
+
+.post>div>img{
+  width: 100%;
+  margin: 0;
+}
+
+.buttons{
+  display: flex; 
+  margin: 10px; 
+}
+.buttons>*{
+  padding-right: 10px;
+}
+.buttons>*:last-child{
+  margin-left: calc(100% - 160px);
+}
+.likes,.description{
+  margin: 0px 10px;
+}
